@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Dinas Koperasi & UMK CILEGON</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logodiskopclg.png" width="125px" /></a>
+
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark-large" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="visit.html">VISIT</a></li>
+            <li><a href="struktur.html">STRUKTUR</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Contact Us</h1>
+    </section>
+    <!---------contact us--------->
+
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15871.580234007686!2d106.0428708!3d-6.0091455!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3928e67ea67b6590!2sGedung%20Graha%20Edhi%20Praja!5e0!3m2!1sen!2sid!4v1649729617505!5m2!1sen!2sid"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa-brands fa-home"></i>
+            <span>
+              <h5>Gedung Graha Edhi Praja</h5>
+              <p>Jl.Jendral Sudirman No.2 Gedung Graha Edhi Praja Lantai 4 Kota Cilegon</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-brands fa-phone"></i>
+            <span>
+              <h5>+62 895326078108</h5>
+              <p>Monday to Friday, 8AM to 4PM</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-brands fa-envelope-o"></i>
+            <span>
+              <h5>Info cs.diskopumkkotacilegon@gmail.com</h5>
+              <p>Email us your query</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="">
+            <h3>Pengaduan Online UMKM</h3>
+            <input type="text" placeholder="Enter Your Name" required />
+            <input type="email" placeholder="Enter email address" required />
+            <input type="text" placeholder="Enter Your subject" required />
+            <textarea rows="8" placeholder="Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+        <!-----ONLINE  RAKYAT-->
+        <div class="contact-col">
+          <h3>Pengaduan Online Rakyat</h3>
+          <form action="">
+            <input type="text" placeholder="Enter Your Name" required />
+            <input type="email" placeholder="Enter email address" required />
+            <input type="text" placeholder="Enter Your subject" required />
+            <textarea rows="8" placeholder="Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+        <!-------DANA BERGULIR-------->
+        <div class="contact-col">
+          <h3>Pengaduan Dana Bergulir</h3>
+          <form action="">
+            <input type="text" placeholder="Enter Your Name" required />
+            <input type="email" placeholder="Enter email address" required />
+            <input type="text" placeholder="Enter Your subject" required />
+            <textarea rows="8" placeholder="Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!---------footer--------->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Merupakan <strong>kantor Dinas koperasi Kota Cilegon</strong> <br />
+        Kantor ini melaksanakan urusan pemerintah bidang koperasi termasuk merumuskan kebijakan hingga perizinan koperasi.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <p>Made with by Dinas Koperas UMK Cilegon</p>
+    </section>
+
+    <!-----Java Script for Toggle Menu----->
+
+    <script>
+      var navLinks = document.getElementById('navLinks');
+      function showMenu() {
+        navLinks.style.right = '0';
+      }
+      function hideMenu() {
+        navLinks.style.right = '-200px';
+      }
+    </script>
+  </body>
+</html>
