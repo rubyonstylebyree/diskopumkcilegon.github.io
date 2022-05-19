@@ -7,11 +7,12 @@
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url('https://scontent.fcgk27-1.fna.fbcdn.net/v/t1.6435-9/165268138_110465687801453_3503930153299147774_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=7dQjUCL09YcAX_ctf-u&_nc_ht=scontent.fcgk27-1.fna&oh=00_AT9xoghaFyf3y-Na3wLYPkwX3hyinL_Jhxe0Ct0qBn1K3A&oe=62744F18');
+    url('https://scontent.fcgk27-1.fna.fbcdn.net/v/t39.30808-6/274523646_297079352523737_1784629733774584759_n.jpg?_nc_cat=111&ccb=1-6&_nc_sid=730e14&_nc_ohc=jQh8NomYBF8AX8M3YaB&_nc_ht=scontent.fcgk27-1.fna&oh=00_AT_kwMmhl6if9lbcnZVnyx_CqmW2Y5v_GPydzrxCt6d6kQ&oe=628B84AF');
   background-position: center;
   background-size: cover;
   position: relative;
 }
+
 nav {
   display: flex;
   padding: 2% 6%;
@@ -80,10 +81,6 @@ nav img {
   border: 1px solid #f44336;
   background: #f44336;
   transition: 1s;
-}
-
-nav.fa {
-  display: none;
 }
 
 @media (max-width: 700px) {
@@ -257,9 +254,8 @@ h3 {
   display: flex;
 }
 @media (max-width: 700px) {
-  .struktur-col img {
-    margin-left: 0px;
-    margin-right: 15px;
+  .sub-header h1 {
+    font-size: 24px;
   }
 }
 
